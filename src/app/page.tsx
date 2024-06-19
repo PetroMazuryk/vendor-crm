@@ -1,5 +1,6 @@
+import { headers } from 'next/headers';
 import StatusLable, { Status } from './components/status-label';
-
+import Button from './components/button';
 export default function Home() {
   return (
     <main>
