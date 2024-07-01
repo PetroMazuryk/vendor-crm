@@ -13,8 +13,8 @@ export const getSummarySales = () => {
     items.push({
       companyId: i + 1,
       companyTitle: 'Costco Wholesale',
-      sold: 459,
-      income: 600,
+      sold: i * 100 + 459,
+      income: i * 200 + 600,
     });
   }
 
