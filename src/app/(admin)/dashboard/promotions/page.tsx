@@ -8,7 +8,7 @@ export default function Page({}: PageProps) {
     <>
       <Header>Dashboard / New companies</Header>
       <div className="text-center text-green-600 bg-zinc-200 p-4 ">
-        Some additional info new companies
+        Some additional info total promotions
       </div>
     </>
   );
