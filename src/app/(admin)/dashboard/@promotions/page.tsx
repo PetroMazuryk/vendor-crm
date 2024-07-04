@@ -1,5 +1,6 @@
 import React from 'react';
-import { getSummaryPromotions } from '@/lib/api';
+// import { getSummaryPromotions } from '@/lib/api';
+import { getPromotions } from '@/lib/api-crm';
 import SummaryTable from '@/app/components/summary-table';
 import SummaryTableHeader from '@/app/components/summary-table-header';
 import SummaryTableCell from '@/app/components/summary-table-cell';
@@ -8,8 +9,8 @@ import DashboardCard from '@/app/components/dashboard-card';
 export interface PageProps {}
 
 export default async function Page({}: PageProps) {
-  const data = await getSummaryPromotions();
-
+  // const data = await getSummaryPromotions();
+  const data = await getPromotions();
   return (
     <DashboardCard label="Promotions">
       <SummaryTable

@@ -1,5 +1,6 @@
 import React from 'react';
-import { getSummarySales } from '@/lib/api';
+// import { getSummarySales } from '@/lib/api';
+import { getSummarySales } from '@/lib/api-crm';
 import SummaryTable from '@/app/components/summary-table';
 import SummaryTableHeader from '@/app/components/summary-table-header';
 import SummaryTableCell from '@/app/components/summary-table-cell';
