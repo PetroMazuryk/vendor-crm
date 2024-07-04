@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { getSummaryStats } from '@/lib/api';
+// import { getSummaryStats } from '@/lib/api';
+import { getSummaryStats } from '@/lib/api-crm';
 import StatCard, { StatCardType } from '@/app/components/stat-card';
 
 export interface PageProps {}
