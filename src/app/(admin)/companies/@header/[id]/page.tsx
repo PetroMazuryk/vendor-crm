@@ -1,4 +1,3 @@
-import React from 'react';
 import { Company, getCompany } from '@/lib/api-crm';
 import getQueryClient from '@/lib/utils/getQueryClient';
 import Header from '@/app/components/header';

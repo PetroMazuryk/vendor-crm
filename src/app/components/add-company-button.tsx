@@ -4,7 +4,7 @@
 import React from 'react';
 
 import Button from '@/app/components/button';
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
 
 // const CompanyFormModal = dynamic(() => import('./company-form-modal'), {
@@ -16,7 +16,9 @@ export default function AddCompanyButton() {
   const router = useRouter();
   return (
     <>
-      <Button onClick={() => router.push('/companies/new')}>Add company</Button>
+      <Button onClick={() => router.push('/companies/new', { scroll: false })}>
+        Add company
+      </Button>
       {/* <Button onClick={() => setShow(true)}>Add company</Button> */}
       {/* <CompanyFormModal
         onSubmit={console.log}
